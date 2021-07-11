@@ -5,7 +5,7 @@
 CREATE TABLE peliculas (
 	id SMALLINT PRIMARY KEY,
 	pelicula VARCHAR(100),
-	anio_estreno varchar(4),
+	anio_estreno VARCHAR(4),
 	director VARCHAR(50)
 );
 
@@ -16,8 +16,8 @@ CREATE TABLE reparto (
 );
 
 
--- SELECT*FROM peliculas;
--- SELECT*FROM reparto;
+-- SELECT * FROM peliculas;
+-- SELECT * FROM reparto;
 
 
 -- 3. Obtener el ID de la película “Titanic”.
