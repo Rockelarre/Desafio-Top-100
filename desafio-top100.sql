@@ -15,7 +15,13 @@ CREATE TABLE reparto (
 	FOREIGN KEY (id) REFERENCES peliculas(id)
 );
 
+-- Comando para cargar la data en la tabla peliculas
+-- \copy peliculas FROM 'directorio/peliculas.csv' csv header;
 
+-- Agregarle header al archivo reparto.csv y después cargar la data en la tabla reparto
+-- \copy reparto FROM 'directorio/reparto.csv' csv header;
+
+-- Consultar datos cargados
 -- SELECT * FROM peliculas;
 -- SELECT * FROM reparto;
 
